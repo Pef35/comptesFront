@@ -2,6 +2,7 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('comptesDashboardApp', [
+var app = angular.module('comptesDashboardApp', [
     'comptesDashboardControllers'
 ]);
+

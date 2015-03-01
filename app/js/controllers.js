@@ -5,6 +5,6 @@
 var comptesDashboardControllers = angular.module('comptesDashboardControllers', []);
 
 comptesDashboardControllers.controller('IndexCtrl', ['$scope',
-    function($scope, $http) {
-        $scope.name = 'WORLD';
+    function($scope) {
+        $scope.name = 'Pef';
     }]);
